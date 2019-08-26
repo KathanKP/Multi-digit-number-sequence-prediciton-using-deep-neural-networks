@@ -12,4 +12,8 @@ Basic model had the following layout:
 
 More details can be found in the document. 
 
+generate_dataset.py contains the code that reads the train.csv file which contains bounding box of each digit in an image and its ground truth and converts it to training data in the required format with details like number of digits in the image and the ground truth labels of each digit. 
+
+model.py contains the final model used for submission and is writting using Tensorflow.
+
 [1] https://arxiv.org/pdf/1312.6082.pdf [2] http://ufldl.stanford.edu/housenumbers/
